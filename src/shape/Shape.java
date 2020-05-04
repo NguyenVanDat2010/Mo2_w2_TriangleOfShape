@@ -28,6 +28,7 @@ public class Shape {
         this.filled = filled;
     }
 
+    @Override
     public String toString() {
         return "A Shape with " + getColor() + " color and " + (isFilled() ? "filled" : "not filled");
     }

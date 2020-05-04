@@ -54,6 +54,7 @@ public class Triangle extends Shape {
 //        return Math.sqrt(getPerimeter()*(getPerimeter()-side1)*(getPerimeter()-side2)*(getPerimeter()-side3));
     }
 
+    @Override
     public String toString() {
         return "A Triangle with side1 = " + side1 + ", side2 = " + side2 + " and side3 = " + side3 + ", which is subclass of " + super.toString();
     }
