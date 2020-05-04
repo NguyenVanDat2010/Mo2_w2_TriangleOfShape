@@ -46,7 +46,7 @@ public class Triangle extends Shape {
     }
 
     public double getPerimeter() {
-        return (0.25 * (side1 + side2 + side3));
+        return (0.5 * (side1 + side2 + side3));
     }
 
     public double getArea() {
